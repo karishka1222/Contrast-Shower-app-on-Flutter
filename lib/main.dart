@@ -1,3 +1,4 @@
+import 'package:contrast_shower/pages/home_page.dart';
 import 'package:contrast_shower/pages/welcome_page.dart';
 import 'package:contrast_shower/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,10 @@ class MainApp extends StatelessWidget {
       home: WelcomePage(),
       theme: lightMode,
       darkTheme: darkMode,
+      routes: {
+        "/welcome": (context) => WelcomePage(),
+        "/home": (context) => HomePage(),
+      },
     );
   }
 }
