@@ -110,7 +110,7 @@ class HomePage extends StatelessWidget {
                 ),
                 Button(
                   text: "       Start       ",
-                  onTap: () => Navigator.pushNamed(context, "/summary"),
+                  onTap: () => Navigator.pushNamed(context, "/timer"),
                 ),
                 const SizedBox(
                   height: 25,
