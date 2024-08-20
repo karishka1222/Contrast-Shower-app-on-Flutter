@@ -1,4 +1,5 @@
 import 'package:contrast_shower/pages/welcome_page.dart';
+import 'package:contrast_shower/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: WelcomePage(),
+      theme: lightMode,
+      darkTheme: darkMode,
     );
   }
 }
