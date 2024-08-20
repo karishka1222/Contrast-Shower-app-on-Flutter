@@ -1,4 +1,6 @@
 import 'package:contrast_shower/pages/home_page.dart';
+import 'package:contrast_shower/pages/summary_page.dart';
+import 'package:contrast_shower/pages/timer_page.dart';
 import 'package:contrast_shower/pages/welcome_page.dart';
 import 'package:contrast_shower/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +22,8 @@ class MainApp extends StatelessWidget {
       routes: {
         "/welcome": (context) => WelcomePage(),
         "/home": (context) => HomePage(),
+        "/timer": (context) => TimerPage(),
+        "/summary": (context) => SummaryPage(),
       },
     );
   }
