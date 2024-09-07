@@ -1,0 +1,42 @@
+# Contrast Shower
+
+_Прочитать на другом языке: [English](README.md), [Русский](README.ru.md)_
+
+## Описание проекта
+
+Приложение Contrast Shower задумано для людей, которые практикуют контрастный душ.
+
+Здесь пользователь может задать время для душа с холодной/горячей водой, время перед началом сессии, количество повторений и запустить таймер. Также будет доступна история сессий.
+
+❗❗❗Проект находится в разработке
+
+## Планы на доработку
+
+- Доделать функционал таймера
+- Доделать ввод данных и передачу этих данных в таймер
+- Добавить возможность видеть данные прошлых сессий
+
+## Текущее состояние проекта
+
+<img src="assets/demo/home.png" width="200" />
+<img src="assets/demo/settings.png" width="200" />
+<img src="assets/demo/timer.png" width="200" />
+<img src="assets/demo/itog.png" width="200" />
+
+## Используемые фреймворки и технологии
+
+<img src="https://img.shields.io/badge/Flutter%20-%2302569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white" />
+
+<img src="https://img.shields.io/badge/dart-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white"/>
+
+* Описание: Flutter - это фреймворк с открытым исходным кодом от Google для создания красивых, изначально скомпилированных мультиплатформенных приложений на основе единой кодовой базы.
+* Ресурсы:
+  * Официальный сайт: [Official Website](https://flutter.dev/)
+  * Документация: [Documentation](https://docs.flutter.dev/)
+
+<img src="https://img.shields.io/badge/firebase%20-%23039BE5.svg?&style=for-the-badge&logo=firebase"/>
+
+* Описание: Firebase - набор инструментов и сервисов для разработки мобильных и веб-приложений от Google. С его помощью можно быстро развернуть бэкенд со своей серверной логикой, подключить базы данных и настроить авторизацию пользователей. Часто платформу используют для создания MVP и разработки при ограниченных ресурсах.
+* Ресурсы:
+  * Официальный сайт: [Official Website](https://firebase.google.com/)
+  * Документация: [Documentation](https://firebase.google.com/docs?hl=ru)
