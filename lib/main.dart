@@ -4,8 +4,13 @@ import 'package:contrast_shower/pages/timer_page.dart';
 import 'package:contrast_shower/pages/welcome_page.dart';
 import 'package:contrast_shower/theme/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
-void main() {
+void main() async {
+
+  await Hive.initFlutter();
+
+  var box = await Hive.openBox('mybox');
   runApp(const MainApp());
 }
 
