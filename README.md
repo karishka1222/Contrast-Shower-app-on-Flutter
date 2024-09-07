@@ -18,10 +18,7 @@ Here the user can set the time for a shower with cold/hot water, the time before
 
 ## Current status of the project
 
-<img src="assets/demo/home.png" width="200" />
-<img src="assets/demo/settings.png" width="200" />
-<img src="assets/demo/timer.png" width="200" />
-<img src="assets/demo/itog.png" width="200" />
+<img src="assets/demo/demo.png" width="700" />
 
 ## Frameworks and technologies used
 

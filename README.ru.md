@@ -18,10 +18,7 @@ _Прочитать на другом языке: [English](README.md), [Рус�
 
 ## Текущее состояние проекта
 
-<img src="assets/demo/home.png" width="200" />
-<img src="assets/demo/settings.png" width="200" />
-<img src="assets/demo/timer.png" width="200" />
-<img src="assets/demo/itog.png" width="200" />
+<img src="assets/demo/demo.png" width="700" />
 
 ## Используемые фреймворки и технологии
 
